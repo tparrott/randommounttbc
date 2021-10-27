@@ -1,6 +1,7 @@
-## Interface: 20502
+## Interface: 20501
 ## Title: RandomMount
-## Version: 0.0.91
+## Notes: Addon that allows for random mount summoning in Classic TBC.
+## Version: @project-version@
 ## Author: Slumberlust
 ## Credits: Reticent (Author), Skafte (TBC Updater)
 ## DefaultState: Enabled
