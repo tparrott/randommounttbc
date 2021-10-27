@@ -1,3 +1,5 @@
+package-as: Random Mount TBC
+
 externals:
   Libs/LibStub:
     url: https://repos.wowace.com/wow/libstub/trunk
