@@ -1,4 +1,4 @@
-## Interface: 20501
+## Interface: 2.5.2
 ## Title: RandomMount
 ## Version: 0.0.91
 ## Author: Slumberlust
