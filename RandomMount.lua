@@ -9,7 +9,7 @@ end
 -- Configuration
 -- -------------
 
-local useSpellMounts = false
+local useSpellMounts = true
 
 -- -------------
 -- Internal code
@@ -196,7 +196,7 @@ local function RnM_Scan()
         newNumMounts = newNumMounts + numSpellMounts
 
         numSpellMounts = RnM_CheckKnownSpells(fastGroundSpells, fastGroundSpellbookSpells)
-        newNumFastGroundMounts = newNumFastGroundMounts + numSpellMounts + numAdaptiveMounts
+        newNumFastGroundMounts = newNumFastGroundMounts + numSpellMounts + newNumAdaptiveMounts
         newNumMounts = newNumMounts + numSpellMounts
 
         numSpellMounts = RnM_CheckKnownSpells(slowFlyingSpells, slowFlyingSpellbookSpells)
@@ -204,7 +204,7 @@ local function RnM_Scan()
         newNumMounts = newNumMounts + numSpellMounts
 
         numSpellMounts = RnM_CheckKnownSpells(fastFlyingSpells, fastFlyingSpellbookSpells)
-        newNumFastFlyingMounts = newNumFastFlyingMounts + numSpellMounts +numAdaptiveMounts
+        newNumFastFlyingMounts = newNumFastFlyingMounts + numSpellMounts + newNumAdaptiveMounts
         newNumMounts = newNumMounts + numSpellMounts
     end
 
